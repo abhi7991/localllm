@@ -2,6 +2,8 @@
 
 In this notebook, I explore localized large language models available through **Ollama**, specifically focusing on **Llama3** and **Mistral**. Ollama facilitates running these models on local machines, enabling customizable AI solutions.
 
+[For the visual learner - Video Tutorial](https://youtu.be/GJVsYxTLE5c)
+
 ## Ollama Overview
 
 Ollama provides a streamlined interface for running large language models such as **Llama3** and **Mistral** locally. For a detailed guide, you can refer to the [Ollama GitHub page](https://github.com/ollama/ollama).
