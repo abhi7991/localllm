@@ -108,3 +108,12 @@ here are some of the outputs I got when comparing the following parameters
 - Complex Query Handling: Both models show increased evaluation times for complex or multi-step queries, but myllama3 seems to handle these slightly more efficiently in terms of overall time.
 
 - Initial Response Time: myllama3 demonstrates faster prompt evaluation, which could lead to quicker initial responses, making it potentially more responsive for interactive tasks.
+
+
+#### Reproduce Results
+
+Clone the repository and follow the steps outlined above.
+
+- `mymistral.modelfile` Use this to create a custom Mistral model.
+- `myllama3.modelfile` Use this to create a custom Llama3 model. 
+- `Compare_Models.py` Run this script to generate some visual insights on top of the model.
