@@ -1,6 +1,6 @@
 # Localized Large Language Models
 
-In this notebook, explore localized large language models available through **Ollama**, specifically focusing on **Llama3** and **Mistral**. Ollama facilitates running these models on local machines, enabling customizable AI solutions.
+In this notebook, I explore localized large language models available through **Ollama**, specifically focusing on **Llama3** and **Mistral**. Ollama facilitates running these models on local machines, enabling customizable AI solutions.
 
 ## Ollama Overview
 
