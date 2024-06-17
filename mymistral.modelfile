@@ -1,0 +1,22 @@
+#SETTING THE BASE MODEL 
+
+FROM mistral:latest
+
+#SETTING THE CUSTOM PARAMETER VALUE
+
+PARAMETER temperature 1
+
+PARAMETER stop [INST]
+PARAMETER stop [/INST]
+
+# SETTING THE MODEL TEMPLATE
+
+TEMPLATE """
+
+[INST] {{ if .System }}{{ .System }} {{ end }}{{ .Prompt }} [/INST]
+
+"""
+
+# SETTING THE SYSTEM MESSAGE 
+
+SYSTEM You are a helpful AI Assistant named JARVIZ who helps people with a lot of tasks and have to be very nice to the users.
