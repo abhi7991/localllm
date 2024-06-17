@@ -1,4 +1,3 @@
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -79,7 +78,6 @@ target/
 # Jupyter Notebook
 LocalLLms.ipynb
 .ipynb_checkpoints
-
 
 # IPython
 profile_default/

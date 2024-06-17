@@ -39,7 +39,7 @@ For Windows users, you can download and install the **Ollama** application from 
 ![alt text](images/Running_Ollama2.jpg)
 
     - We can also run custom Llama3 models and prompt it to do different things 
-    - The **myllama.modelfile** in this repo consists of the custom model. 
+    - The myllama.modelfile in this repo consists of the custom model. 
     - Here is an example I tried out using the modelfile present in the repository
     - running the below code creates a new model
     
@@ -66,7 +66,7 @@ For Windows users, you can download and install the **Ollama** application from 
 
      - Similar to our Custom LLama3 model we create a custom Mistral model to see how it performs
      - Testing out the new model we can see our custom Mistral AI bot has been deployed
-     - The **mymistral.modelfile** in this repo consists of the custom model.           
+     - The mymistral.modelfile in this repo consists of the custom model.           
 ![alt text](images/Running_Custom_mistral6.jpg)               
 
 ## Comparing the Large Language Models
