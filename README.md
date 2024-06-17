@@ -99,7 +99,7 @@ here are some of the outputs I got when comparing the following parameters
 ![alt text](images/Prompt_Eval_Duration_.jpg)             
 
 
-![alt text](images/Prompt_Eval_Duration_.jpg)    
+![alt text](images/Eval_Duration_.jpg)    
 
 ### Conclusion and Performance Comparison
 
