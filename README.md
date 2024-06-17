@@ -1,6 +1,6 @@
 # Localized Large Language Models
 
-In this notebook, we explore localized large language models available through **Ollama**, specifically focusing on **Llama3** and **Mistral**. Ollama facilitates running these models on local machines, enabling customizable AI solutions.
+In this notebook, explore localized large language models available through **Ollama**, specifically focusing on **Llama3** and **Mistral**. Ollama facilitates running these models on local machines, enabling customizable AI solutions.
 
 ## Ollama Overview
 
@@ -34,11 +34,11 @@ For Windows users, you can download and install the **Ollama** application from 
 ![alt text](images/Running_Ollama1.jpg)
 
     - Lets get Llama3 up and running 
-    - Once we run Llama3 we can test it out with some examples 
+    - Once I run Llama3 I can test it out with some examples 
 
 ![alt text](images/Running_Ollama2.jpg)
 
-    - We can also run custom Llama3 models and prompt it to do different things 
+    - I can also run custom Llama3 models and prompt it to do different things 
     - The myllama.modelfile in this repo consists of the custom model. 
     - Here is an example I tried out using the modelfile present in the repository
     - running the below code creates a new model
@@ -47,7 +47,7 @@ For Windows users, you can download and install the **Ollama** application from 
 
 ![alt text](images/Running_Custom_Ollama3.jpg)    
     
-    - Testing out the new model we can see our custom AI bot has been deployed 
+    - Testing out the new model I can see our custom AI bot has been deployed 
     
     
 ![alt text](images/Running_Custom_Ollama4.jpg)        
@@ -55,8 +55,8 @@ For Windows users, you can download and install the **Ollama** application from 
 
 ### Steps to run Mistral
 
-    - Similar to running Llama3 we can run Mistral by installing it Through Ollama
-    - When we list out the models we can see that our Mistral model is available to us 
+    - Similar to running Llama3 I can run Mistral by installing it Through Ollama
+    - When I list out the models I can see that our Mistral model is available to us 
     
 ![alt text](images/Running_Custom_mistral5.jpg)           
 
@@ -64,19 +64,19 @@ For Windows users, you can download and install the **Ollama** application from 
     
 ![alt text](images/Running_Custom_mistral5_5.jpg)           
 
-     - Similar to our Custom LLama3 model we create a custom Mistral model to see how it performs
-     - Testing out the new model we can see our custom Mistral AI bot has been deployed
+     - Similar to our Custom LLama3 model I create a custom Mistral model to see how it performs
+     - Testing out the new model I can see our custom Mistral AI bot has been deployed
      - The mymistral.modelfile in this repo consists of the custom model.           
 ![alt text](images/Running_Custom_mistral6.jpg)               
 
 ## Comparing the Large Language Models
 
-We can compare the large language models by passing using the Curl command and obtaining important information 
+I can compare the large language models by passing using the Curl command and obtaining important information 
 
 ```
 curl -X POST http://localhost:11434/api/generate -d "{\"model\": \"llama3\",  \"prompt\":\"Tell me a fact about Llama?\", \"stream\": false}"
 ```
-we get the following parameters upon running the API 
+I get the following parameters upon running the API 
 
 - `total_duration`: time spent generating the response
 - `load_duration`: time spent in nanoseconds loading the model
