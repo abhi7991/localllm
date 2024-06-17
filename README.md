@@ -39,6 +39,7 @@ For Windows users, you can download and install the **Ollama** application from 
 ![alt text](images/Running_Ollama2.jpg)
 
     - We can also run custom Llama3 models and prompt it to do different things 
+    - The **myllama.modelfile** in this repo consists of the custom model. 
     - Here is an example I tried out using the modelfile present in the repository
     - running the below code creates a new model
     
@@ -63,8 +64,9 @@ For Windows users, you can download and install the **Ollama** application from 
     
 ![alt text](images/Running_Custom_mistral5_5.jpg)           
 
-    - Similar to our Custom LLama3 model we create a custom Mistral model to see how it performs
-     - Testing out the new model we can see our custom Mistral AI bot has been deployed     
+     - Similar to our Custom LLama3 model we create a custom Mistral model to see how it performs
+     - Testing out the new model we can see our custom Mistral AI bot has been deployed
+     - The **mymistral.modelfile** in this repo consists of the custom model.           
 ![alt text](images/Running_Custom_mistral6.jpg)               
 
 ## Comparing the Large Language Models
@@ -99,10 +101,7 @@ here are some of the outputs I got when comparing the following parameters
 
 ![alt text](images/Prompt_Eval_Duration_.jpg)    
 
-## Conclusion
-
-
-### Performance Comparison
+### Conclusion and Performance Comparison
 
 - Response Efficiency: myllama3 appears to be generally more efficient in responding to both simple and complex questions, suggesting it may be better optimized for quicker evaluations.
 
